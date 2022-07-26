@@ -1,16 +1,16 @@
 <?xml version="4.20" encoding="UTF-8" standalone="yes"?>
 			
-	<addon id="plugin.video.gstreams" name="gstreams.github.io" version="4.20" provider-name="RuthlessFTW">
+	<addon id="repository.gstreams" name="G-Streams" version="4.20" provider-name="RuthlessFTW">
 			
 	    <extension point="xbmc.addon.repository" name="Example Repository">
 			
 	        <dir>
 			
-	            <info compressed="false">https://raw.githubusercontent.com/RuthlessFTW/gstreams.github.io/master/repo/zips/addons.xml</info>
+	            <info compressed="false">https://raw.githubusercontent.com/RuthlessFTW/G-Streams/master/repo/zips/addons.xml</info>
 			
-	            <checksum>https://raw.githubusercontent.com/RuthlessFTW/gstreams.github.io/master/repo/zips/addons.xml.md5</checksum>
+	            <checksum>https://raw.githubusercontent.com/RuthlessFTW/G-Streams/master/repo/zips/addons.xml.md5</checksum>
 			
-	            <datadir zip="true">https://raw.githubusercontent.com/RuthlessFTW/gstreams.github.io/master/repo/zips/</datadir>
+	            <datadir zip="true">https://raw.githubusercontent.com/RuthlessFTW/G-Streams/master/repo/zips/</datadir>
 			
 	        </dir>
 			
@@ -18,7 +18,7 @@
 			
 	    <extension point="xbmc.addon.metadata">
 			
-	        <summary>gstreams.github.io</summary>
+	        <summary>G-Streams</summary>
 			
 	        <description>gstreams.net</description>
 			
