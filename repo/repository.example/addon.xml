@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.gstreams" name="gstreams.github.io" version="3.1.4" provider-name="RuthlessFTW">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR red]An IPTV addon written to work with XC and XCUI for Kodi 19 only[/COLOR] </summary>
-	<language>en</language>
-	<description lang="en">[COLOR red]This addon does not supply nor provide any illegal content[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
+		
+<addon id="ADDON_ID_HERE" name="REPO_NAME_HERE" version="VERSION_NUMBER_HERE" provider-name="YOUR_USERNAME_HERE">
+		
+    <extension point="xbmc.addon.repository" name="Example Repository">
+		
+        <dir>
+		
+            <info compressed="false">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml</info>
+		
+            <checksum>https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml.md5</checksum>
+		
+            <datadir zip="true">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/</datadir>
+		
+        </dir>
+		
+    </extension>
+		
+    <extension point="xbmc.addon.metadata">
+		
+        <summary>REPO_NAME_HERE</summary>
+		
+        <description>DESCRIPTION OF YOUR REPO HERE</description>
+		
+        <disclaimer></disclaimer>
+		
+        <platform>all</platform>
+		
+        <assets>
+		
+            <icon>icon.png</icon>
+		
+            <fanart>fanart.jpg</fanart>
+		
+        </assets>
+		
+    </extension>
+		
 </addon>
